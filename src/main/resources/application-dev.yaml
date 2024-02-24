@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql:://localhost:5432/housing-db
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: 1996
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
