@@ -7,18 +7,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  security:
-    oauth2:
-      client:
-        registration:
-          auth0:
-            client-id: Z0NUERQcVsROGovfJb7k9zB2iU3nY2hh
-            client-secret: 5M4zZ2U6v9IVXyn7DC1Kwjs1jlrK1SsJ-k_PQue7Ckz5Sgj7RS54oo0MAl9qTnH9
-            scope:
-
-        provider:
-          auth0:
-            issuer-uri: https://dev-sizn8gj44ke3f75c.us.auth0.com
 
 logging:
   level:
